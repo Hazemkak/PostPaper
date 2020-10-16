@@ -1,0 +1,18 @@
+<%-include("partials/header")-%>
+
+<h1>Compose</h1>
+
+<form action="/compose" method="post">
+    <h4>Title</h4>
+    <div class="input-group flex-nowrap">
+        <input type="text" class="form-control"name="postTitles" >
+      </div>
+    <h4>Post</h4>
+    <div class="input-group">
+        <textarea class="form-control" aria-label="With textarea" rows="5" cols="6" name="postWords"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+</form>
+
+
+<%-include("partials/footer")-%>
